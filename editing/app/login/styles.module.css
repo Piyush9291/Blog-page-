@@ -1,0 +1,108 @@
+/* Container settings */
+.container {
+    background-color: #f0b503; /* Yellow background */
+     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+   
+  /* Card styling */
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 40px;
+    width: 400px;
+    line-height: 36px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    background-color: #f0b503;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .logintext {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+ .textDesc {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .inputbox {
+    border: none;
+    flex: 1;
+    outline: none;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .otpButton {
+    background-color: #f0b503;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .loginText {
+    text-align: center;
+  }
+
+  .loginText a {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  /* Footer styling */
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    color: #03374a;
+    font-weight: bold;
+  }
+  
+  .footerLinks {
+    margin-top: 10px;
+  }
+  
+  .footerLinks a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footerLinks a:hover {
+    text-decoration: underline;
+    color: #87530f;
+  }
+  
